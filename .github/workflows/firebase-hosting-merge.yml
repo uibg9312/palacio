@@ -6,6 +6,13 @@ on:
   push:
     branches:
       - main
+
+# AÑADE ESTAS 4 LÍNEAS AQUÍ
+permissions:
+  checks: write
+  contents: read
+  pull-requests: write
+
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
