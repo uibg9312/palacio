@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Welcome to Firebase Hosting</title>
-
+    <link rel="manifest" href="/manifest.json">
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/11.9.0/firebase-app-compat.js"></script>
     <!-- include only the Firebase features as you need -->
@@ -85,5 +85,12 @@
         }
       });
     </script>
+    <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js');
+    });
+  }
+</script>
   </body>
 </html>
