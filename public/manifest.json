@@ -1,0 +1,22 @@
+{
+  "name": "Palacio de la Memoria",
+  "short_name": "Palacio",
+  "description": "Una aplicación para potenciar la memoria usando técnicas mnemotécnicas, con la ayuda de la IA.",
+  "lang": "es-MX",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2A3442",
+  "theme_color": "#039be5",
+  "icons": [
+    {
+      "src": "/images/icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
