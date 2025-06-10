@@ -10,7 +10,7 @@
       {
         "source": "**",
         "run": {
-          "serviceId": "mi-palacio-de-memoria",
+          "serviceId": "palacio-de-la-memoria",
           "region": "us-west1"
         }
       }
