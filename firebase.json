@@ -8,7 +8,7 @@
     ],
     "rewrites": [
       {
-        "source": "!/@(manifest.json|sw.js|images/**)",
+        "source": "**",
         "run": {
           "serviceId": "palacio-de-la-memoria",
           "region": "us-west1"
